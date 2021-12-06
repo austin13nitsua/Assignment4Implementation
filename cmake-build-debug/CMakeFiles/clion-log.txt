@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\Users\austi\Documents\College\UWB\2021-22\FALL21\CSS 343\Assignment4Implementation"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug
