@@ -21,6 +21,8 @@ public:
   Action(Database* = nullptr);
   virtual bool execute() = 0;
   virtual Action* create(ifstream&) = 0;
+  virtual void display() = 0;
+  virtual string getType() = 0;
 private:
   Database* data;
 };

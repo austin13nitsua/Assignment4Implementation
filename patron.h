@@ -10,6 +10,10 @@
 #include <queue>
 #include <list>
 
+using std::string;
+using std::queue;
+using std::list;
+
 //------------------------------------------------------------------------------
 /**
  * Patron Class: Data for individual patrons of the library
@@ -35,15 +39,15 @@ public:
 
     Patron();   //default
     ~Patron();
-    void addEntity(const Entity*); //adds an entity to the checkedOut list
-    bool removeEntity(const Entity*); //removes from same list (check-in)
+    void addEntity(Entity*); //adds an entity to the checkedOut list
+    bool removeEntity(Entity*); //removes from same list (check-in)
     //records all actions taken by patron in patronHistory queue
-    void addToHistory(const Action*);
+    void addToHistory(Action*);
     void display(); //displays patron history
 
 private:
 
-    int idNum = -1; //Patron's ID#, also serves as hash lookup in table
+    int idNum; //Patron's ID#, also serves as hash lookup in table
     string first; //Patron's first name
     string last; //Patron's last name
     //Queue containing patrons action history (all actions taken)
