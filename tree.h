@@ -32,8 +32,11 @@ public:
 
     Tree();
     ~Tree();
+    void deleteNode(Node*&);
     void display() const; //Displays tree in inorder traversal
+    void inOrderTraversal(Node*) const; // helper function to display data in tree
     void insert(Entity*); //adds a Node to a tree
+    void insertHelper(Entity*, Node*&); // helper function to insert a Node
     Entity* retrieve(const Entity&); //finds and returns an entity
 
 private:

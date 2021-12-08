@@ -3,6 +3,9 @@
 //CSC 343 Assignment_4 Design
 
 #include "tree.h"
+#include <iostream>
+
+using std::cout;
 
 //------------------------------------------------------------------------------
 /**
@@ -26,5 +29,64 @@
 Tree::Tree() : root(nullptr) {}
 
 Tree::~Tree() {
-
+    deleteNode(root);
 }
+
+void Tree::deleteNode(Node*& curNode) {
+    // Base case, node does not exist
+    if(curNode == nullptr) {
+        return;
+    }
+    // Recursively delete left subtree
+    deleteNode(curNode->left);
+    // Recursively delete right subtree
+    deleteNode(curNode->right);
+    // Delete curNode
+    delete curNode; // Node destructor handles deleting data within node
+    curNode = nullptr;
+}
+
+void Tree::display() const {
+    inOrderTraversal(root);
+} //Displays tree in inorder traversal
+
+void Tree::inOrderTraversal(Node* curNode) const {
+    // Base case, node doesn't exist
+    if(curNode == nullptr) {
+        return;
+    }
+    // Process left child
+    inOrderTraversal(curNode->left);
+    // Process root
+    curNode->data->display();
+    cout << endl;
+    // Process right child
+    inOrderTraversal(curNode->right);
+}
+
+void Tree::insert(Entity* libraryEntity) {
+    if(libraryEntity == nullptr) {
+        cout << "Error: Tree insert() Entity argument is nullptr" << endl;
+        return;
+    }
+    insertHelper(libraryEntity, root);
+}
+
+void Tree::insertHelper(Entity* libraryEntity, Node*& curNode) {
+    // Root is null, create a new node and set its data to libraryEntity
+    if(curNode == nullptr) {
+        curNode = new Node();
+        curNode->data = libraryEntity;
+        return;
+    }
+    // libraryEntity is less than curNode, recursively insert left subtree
+    if(*libraryEntity < *(curNode->data)) {
+        insertHelper(libraryEntity, curNode->left);
+    }
+    // libraryEntity is greater than curNode, recursively insert right subtree
+    else {
+        insertHelper(libraryEntity, curNode->right);
+    }
+}
+
+Entity* retrieve(const Entity&); //finds and returns an entity

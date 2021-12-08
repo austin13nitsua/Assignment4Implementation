@@ -22,16 +22,6 @@ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implement
 fstream
 -
 
-C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entityfactory.cpp
-entityfactory.h
-C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entityfactory.h
-ctype.h
--
-iostream
--
-fstream
--
-
 C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entityfactory.h
 fstream
 -
@@ -48,9 +38,33 @@ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implement
 string
 -
 
+C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/main.cpp
+iostream
+-
+fstream
+-
+entityfactory.h
+C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entityfactory.h
+tree.h
+C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/tree.h
+
+C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/node.h
+entity.h
+C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entity.h
+
 C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/periodical.h
 entity.h
 C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entity.h
 string
 -
+
+C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/tree.cpp
+tree.h
+C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/tree.h
+iostream
+-
+
+C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/tree.h
+node.h
+C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/node.h
 

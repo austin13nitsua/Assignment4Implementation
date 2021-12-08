@@ -121,6 +121,12 @@
 		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/node.h">
 			<Option target="Assignment4Implementation"/>
 		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patron.cpp">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patron.h">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
 		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/periodical.cpp">
 			<Option target="Assignment4Implementation"/>
 		</Unit>

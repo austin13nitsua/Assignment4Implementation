@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Assignment4Implementation.dir/fictionbook.cpp.obj"
   "CMakeFiles/Assignment4Implementation.dir/main.cpp.obj"
   "CMakeFiles/Assignment4Implementation.dir/node.cpp.obj"
+  "CMakeFiles/Assignment4Implementation.dir/patron.cpp.obj"
   "CMakeFiles/Assignment4Implementation.dir/periodical.cpp.obj"
   "CMakeFiles/Assignment4Implementation.dir/tree.cpp.obj"
 )

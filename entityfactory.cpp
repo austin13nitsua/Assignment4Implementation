@@ -46,15 +46,22 @@ EntityFactory::~EntityFactory() {
 Entity* EntityFactory::createFromFile(ifstream& inputFile) {
     char ch;
     inputFile >> ch;
+    if(inputFile.eof()) {
+        cout << "Error: EntityFactory createFromFile(), end of file reached";
+        cout << endl;
+        return nullptr;
+    }
     cout << "ch: " << ch << endl;
     // Char is a letter
+    int index = hash(toupper(ch));
+    return entityFactory[index]->create(inputFile);
     if(isalpha(ch)) {
         int index = hash(toupper(ch));
         return entityFactory[index]->create(inputFile);
     }
     // Char isn't a letter, invalid
     else {
-        cout << "Error: EntityFactory createIt(), ";
+        cout << "Error: EntityFactory createFromFile(), ";
         cout << "char argument is not a letter";
         cout << endl;
 

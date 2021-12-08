@@ -232,6 +232,25 @@ CMakeFiles\Assignment4Implementation.dir\tree.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Assignment4Implementation.dir\tree.cpp.s /c "C:\Users\austi\Documents\College\UWB\2021-22\FALL21\CSS 343\Assignment4Implementation\tree.cpp"
 <<
 
+CMakeFiles\Assignment4Implementation.dir\patron.cpp.obj: CMakeFiles\Assignment4Implementation.dir\flags.make
+CMakeFiles\Assignment4Implementation.dir\patron.cpp.obj: ..\patron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\austi\Documents\College\UWB\2021-22\FALL21\CSS 343\Assignment4Implementation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Assignment4Implementation.dir/patron.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Assignment4Implementation.dir\patron.cpp.obj /FdCMakeFiles\Assignment4Implementation.dir\ /FS -c "C:\Users\austi\Documents\College\UWB\2021-22\FALL21\CSS 343\Assignment4Implementation\patron.cpp"
+<<
+
+CMakeFiles\Assignment4Implementation.dir\patron.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment4Implementation.dir/patron.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\Assignment4Implementation.dir\patron.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\austi\Documents\College\UWB\2021-22\FALL21\CSS 343\Assignment4Implementation\patron.cpp"
+<<
+
+CMakeFiles\Assignment4Implementation.dir\patron.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment4Implementation.dir/patron.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Assignment4Implementation.dir\patron.cpp.s /c "C:\Users\austi\Documents\College\UWB\2021-22\FALL21\CSS 343\Assignment4Implementation\patron.cpp"
+<<
+
 # Object files for target Assignment4Implementation
 Assignment4Implementation_OBJECTS = \
 "CMakeFiles\Assignment4Implementation.dir\main.cpp.obj" \
@@ -242,7 +261,8 @@ Assignment4Implementation_OBJECTS = \
 "CMakeFiles\Assignment4Implementation.dir\entityfactory.cpp.obj" \
 "CMakeFiles\Assignment4Implementation.dir\periodical.cpp.obj" \
 "CMakeFiles\Assignment4Implementation.dir\node.cpp.obj" \
-"CMakeFiles\Assignment4Implementation.dir\tree.cpp.obj"
+"CMakeFiles\Assignment4Implementation.dir\tree.cpp.obj" \
+"CMakeFiles\Assignment4Implementation.dir\patron.cpp.obj"
 
 # External object files for target Assignment4Implementation
 Assignment4Implementation_EXTERNAL_OBJECTS =
@@ -256,9 +276,10 @@ Assignment4Implementation.exe: CMakeFiles\Assignment4Implementation.dir\entityfa
 Assignment4Implementation.exe: CMakeFiles\Assignment4Implementation.dir\periodical.cpp.obj
 Assignment4Implementation.exe: CMakeFiles\Assignment4Implementation.dir\node.cpp.obj
 Assignment4Implementation.exe: CMakeFiles\Assignment4Implementation.dir\tree.cpp.obj
+Assignment4Implementation.exe: CMakeFiles\Assignment4Implementation.dir\patron.cpp.obj
 Assignment4Implementation.exe: CMakeFiles\Assignment4Implementation.dir\build.make
 Assignment4Implementation.exe: CMakeFiles\Assignment4Implementation.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\austi\Documents\College\UWB\2021-22\FALL21\CSS 343\Assignment4Implementation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Assignment4Implementation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\austi\Documents\College\UWB\2021-22\FALL21\CSS 343\Assignment4Implementation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Assignment4Implementation.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Assignment4Implementation.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Assignment4Implementation.dir\objects1.rsp @<<
  /out:Assignment4Implementation.exe /implib:Assignment4Implementation.lib /pdb:"C:\Users\austi\Documents\College\UWB\2021-22\FALL21\CSS 343\Assignment4Implementation\cmake-build-debug\Assignment4Implementation.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

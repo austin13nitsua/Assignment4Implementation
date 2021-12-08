@@ -316,6 +316,33 @@ node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\node.cpp.s
 .PHONY : node.cpp.s
 
+patron.obj: patron.cpp.obj
+
+.PHONY : patron.obj
+
+# target to build an object file
+patron.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\patron.cpp.obj
+.PHONY : patron.cpp.obj
+
+patron.i: patron.cpp.i
+
+.PHONY : patron.i
+
+# target to preprocess a source file
+patron.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\patron.cpp.i
+.PHONY : patron.cpp.i
+
+patron.s: patron.cpp.s
+
+.PHONY : patron.s
+
+# target to generate assembly for a file
+patron.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\patron.cpp.s
+.PHONY : patron.cpp.s
+
 periodical.obj: periodical.cpp.obj
 
 .PHONY : periodical.obj
@@ -400,6 +427,9 @@ help:
 	@echo ... node.obj
 	@echo ... node.i
 	@echo ... node.s
+	@echo ... patron.obj
+	@echo ... patron.i
+	@echo ... patron.s
 	@echo ... periodical.obj
 	@echo ... periodical.i
 	@echo ... periodical.s

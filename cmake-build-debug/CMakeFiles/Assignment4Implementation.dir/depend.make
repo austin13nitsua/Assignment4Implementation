@@ -32,10 +32,23 @@ CMakeFiles\Assignment4Implementation.dir\main.cpp.obj: ..\entity.h
 CMakeFiles\Assignment4Implementation.dir\main.cpp.obj: ..\entityfactory.h
 CMakeFiles\Assignment4Implementation.dir\main.cpp.obj: ..\fictionbook.h
 CMakeFiles\Assignment4Implementation.dir\main.cpp.obj: ..\main.cpp
+CMakeFiles\Assignment4Implementation.dir\main.cpp.obj: ..\node.h
 CMakeFiles\Assignment4Implementation.dir\main.cpp.obj: ..\periodical.h
+CMakeFiles\Assignment4Implementation.dir\main.cpp.obj: ..\tree.h
+
+CMakeFiles\Assignment4Implementation.dir\node.cpp.obj: ..\date.h
+CMakeFiles\Assignment4Implementation.dir\node.cpp.obj: ..\entity.h
+CMakeFiles\Assignment4Implementation.dir\node.cpp.obj: ..\node.cpp
+CMakeFiles\Assignment4Implementation.dir\node.cpp.obj: ..\node.h
 
 CMakeFiles\Assignment4Implementation.dir\periodical.cpp.obj: ..\date.h
 CMakeFiles\Assignment4Implementation.dir\periodical.cpp.obj: ..\entity.h
 CMakeFiles\Assignment4Implementation.dir\periodical.cpp.obj: ..\periodical.cpp
 CMakeFiles\Assignment4Implementation.dir\periodical.cpp.obj: ..\periodical.h
+
+CMakeFiles\Assignment4Implementation.dir\tree.cpp.obj: ..\date.h
+CMakeFiles\Assignment4Implementation.dir\tree.cpp.obj: ..\entity.h
+CMakeFiles\Assignment4Implementation.dir\tree.cpp.obj: ..\node.h
+CMakeFiles\Assignment4Implementation.dir\tree.cpp.obj: ..\tree.cpp
+CMakeFiles\Assignment4Implementation.dir\tree.cpp.obj: ..\tree.h
 

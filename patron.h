@@ -9,8 +9,6 @@
 #include <string>
 #include <queue>
 #include <list>
-#include "action.h"
-#include "entity.h"
 
 //------------------------------------------------------------------------------
 /**
@@ -29,6 +27,7 @@
 //------------------------------------------------------------------------------
 
 class Action;
+class Entity;
 
 class Patron {
 

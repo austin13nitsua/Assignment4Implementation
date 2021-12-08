@@ -13,6 +13,7 @@
 #include <iostream>
 #include <fstream>
 #include "entityfactory.h"
+#include "tree.h"
 
 using namespace std;
 
@@ -30,6 +31,8 @@ int main() {
    m.executeActions();
    END ORIGINAL MAIN
    */
+
+   /*
 
    // Testing section below
    EntityFactory eFactory;
@@ -52,6 +55,27 @@ int main() {
        delete entities[i];
        entities[i] = nullptr;
    }
+    */
+
+   Tree libTree;
+   libTree.display();
+
+   EntityFactory entityFactory;
+   ifstream inputFile("C:\\Users\\austi\\Documents\\College\\UWB\\"
+                      "2021-22\\FALL21\\CSS 343\\Assignment4Implementation\\"
+                      "efactorytest.txt");
+   cout << "Entering while loop" << endl;
+
+   Entity* temp = nullptr;
+   do {
+       temp = entityFactory.createFromFile(inputFile);
+       libTree.insert(temp);
+   }
+   while(temp != nullptr);
+
+   cout << "Exited while loop" << endl;
+   libTree.display();
+   cout << "after libTree.display()" << endl;
 
    return 0;
 }
