@@ -41,7 +41,7 @@ public:
     Database(); //default Constructor
     ~Database();
     void buildTrees(ifstream&); //Build trees from input entity file
-    Entity getEntity(ifstream&) const; //returns a specific entity
+    Entity* getEntity(ifstream&) const; //returns a specific entity
     void displayTrees(); //displays a tree
     void buildPatronTable(ifstream&); //builds a patron table
     Patron* getPatron(int); //returns a specific patron from an ID

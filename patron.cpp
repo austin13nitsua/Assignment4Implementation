@@ -3,10 +3,10 @@
 //CSC 343 Assignment_4 Implementation
 
 #include "patron.h"
-#include "entity.h"
+#include "action.h"
 
 // Default constructor, sets data members to default values
-Patron::Patron() : idNum(-1), first(""), last("") {}   //default
+Patron::Patron() : idNum(-1) {}   //default
 
 Patron::~Patron() {
 //??
@@ -16,7 +16,7 @@ void Patron::addEntity(Entity* libraryEntity) {
     checkedOut.push_back(libraryEntity);
 } //adds an entity to the checkedOut list
 
-bool Patron::removeEntity(Entity* libraryEntity) {
+void Patron::removeEntity(Entity* libraryEntity) {
     checkedOut.remove(libraryEntity);
 } //removes from same list (check-in)
 
@@ -38,3 +38,17 @@ void Patron::display() {
         patronHistory.push(temp);
     }
 } //displays patron history
+
+Person* Patron::setData(ifstream& inputFile) {
+    inputFile >> idNum;
+    if(inputFile.eof()) {
+        return nullptr;
+    }
+    inputFile >> last;
+    inputFile >> first;
+    return this;
+}
+
+int Patron::getID() {
+    return idNum;
+}

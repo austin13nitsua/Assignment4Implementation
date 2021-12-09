@@ -9,6 +9,7 @@
 #include <string>
 #include <queue>
 #include <list>
+#include "person.h"
 
 using std::string;
 using std::queue;
@@ -33,23 +34,24 @@ using std::list;
 class Action;
 class Entity;
 
-class Patron {
+
+class Patron : public Person {
 
 public:
 
     Patron();   //default
     ~Patron();
     void addEntity(Entity*); //adds an entity to the checkedOut list
-    bool removeEntity(Entity*); //removes from same list (check-in)
+    void removeEntity(Entity*); //removes from same list (check-in)
     //records all actions taken by patron in patronHistory queue
     void addToHistory(Action*);
     void display(); //displays patron history
+    Person* setData(ifstream&);
+    int getID();
 
 private:
 
     int idNum; //Patron's ID#, also serves as hash lookup in table
-    string first; //Patron's first name
-    string last; //Patron's last name
     //Queue containing patrons action history (all actions taken)
     queue<Action*> patronHistory;
     //List of checked out materials(Entity)

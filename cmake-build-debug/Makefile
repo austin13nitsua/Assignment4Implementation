@@ -127,6 +127,60 @@ Assignment4Implementation\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\build
 .PHONY : Assignment4Implementation\fast
 
+action.obj: action.cpp.obj
+
+.PHONY : action.obj
+
+# target to build an object file
+action.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\action.cpp.obj
+.PHONY : action.cpp.obj
+
+action.i: action.cpp.i
+
+.PHONY : action.i
+
+# target to preprocess a source file
+action.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\action.cpp.i
+.PHONY : action.cpp.i
+
+action.s: action.cpp.s
+
+.PHONY : action.s
+
+# target to generate assembly for a file
+action.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\action.cpp.s
+.PHONY : action.cpp.s
+
+checkout.obj: checkout.cpp.obj
+
+.PHONY : checkout.obj
+
+# target to build an object file
+checkout.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\checkout.cpp.obj
+.PHONY : checkout.cpp.obj
+
+checkout.i: checkout.cpp.i
+
+.PHONY : checkout.i
+
+# target to preprocess a source file
+checkout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\checkout.cpp.i
+.PHONY : checkout.cpp.i
+
+checkout.s: checkout.cpp.s
+
+.PHONY : checkout.s
+
+# target to generate assembly for a file
+checkout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\checkout.cpp.s
+.PHONY : checkout.cpp.s
+
 childrensbook.obj: childrensbook.cpp.obj
 
 .PHONY : childrensbook.obj
@@ -343,6 +397,33 @@ patron.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\patron.cpp.s
 .PHONY : patron.cpp.s
 
+patronhashtable.obj: patronhashtable.cpp.obj
+
+.PHONY : patronhashtable.obj
+
+# target to build an object file
+patronhashtable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\patronhashtable.cpp.obj
+.PHONY : patronhashtable.cpp.obj
+
+patronhashtable.i: patronhashtable.cpp.i
+
+.PHONY : patronhashtable.i
+
+# target to preprocess a source file
+patronhashtable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\patronhashtable.cpp.i
+.PHONY : patronhashtable.cpp.i
+
+patronhashtable.s: patronhashtable.cpp.s
+
+.PHONY : patronhashtable.s
+
+# target to generate assembly for a file
+patronhashtable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\patronhashtable.cpp.s
+.PHONY : patronhashtable.cpp.s
+
 periodical.obj: periodical.cpp.obj
 
 .PHONY : periodical.obj
@@ -369,6 +450,33 @@ periodical.s: periodical.cpp.s
 periodical.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\periodical.cpp.s
 .PHONY : periodical.cpp.s
+
+person.obj: person.cpp.obj
+
+.PHONY : person.obj
+
+# target to build an object file
+person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\person.cpp.obj
+.PHONY : person.cpp.obj
+
+person.i: person.cpp.i
+
+.PHONY : person.i
+
+# target to preprocess a source file
+person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\person.cpp.i
+.PHONY : person.cpp.i
+
+person.s: person.cpp.s
+
+.PHONY : person.s
+
+# target to generate assembly for a file
+person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment4Implementation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Assignment4Implementation.dir\person.cpp.s
+.PHONY : person.cpp.s
 
 tree.obj: tree.cpp.obj
 
@@ -406,6 +514,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Assignment4Implementation
+	@echo ... action.obj
+	@echo ... action.i
+	@echo ... action.s
+	@echo ... checkout.obj
+	@echo ... checkout.i
+	@echo ... checkout.s
 	@echo ... childrensbook.obj
 	@echo ... childrensbook.i
 	@echo ... childrensbook.s
@@ -430,9 +544,15 @@ help:
 	@echo ... patron.obj
 	@echo ... patron.i
 	@echo ... patron.s
+	@echo ... patronhashtable.obj
+	@echo ... patronhashtable.i
+	@echo ... patronhashtable.s
 	@echo ... periodical.obj
 	@echo ... periodical.i
 	@echo ... periodical.s
+	@echo ... person.obj
+	@echo ... person.i
+	@echo ... person.s
 	@echo ... tree.obj
 	@echo ... tree.i
 	@echo ... tree.s

@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/action.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/action.cpp.obj"
+  "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/checkout.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/checkout.cpp.obj"
   "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/childrensbook.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/childrensbook.cpp.obj"
   "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/date.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/date.cpp.obj"
   "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entity.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/entity.cpp.obj"
@@ -12,7 +14,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/main.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/main.cpp.obj"
   "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/node.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/node.cpp.obj"
   "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patron.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/patron.cpp.obj"
+  "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patronhashtable.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/patronhashtable.cpp.obj"
   "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/periodical.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/periodical.cpp.obj"
+  "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/person.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/person.cpp.obj"
   "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/tree.cpp" "C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/cmake-build-debug/CMakeFiles/Assignment4Implementation.dir/tree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

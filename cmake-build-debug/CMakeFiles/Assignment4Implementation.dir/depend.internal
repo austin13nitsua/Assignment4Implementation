@@ -27,25 +27,43 @@ CMakeFiles/Assignment4Implementation.dir/fictionbook.cpp.obj
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/fictionbook.cpp
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/fictionbook.h
 CMakeFiles/Assignment4Implementation.dir/main.cpp.obj
- C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/childrensbook.h
- C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/date.h
- C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entity.h
- C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entityfactory.h
- C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/fictionbook.h
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/main.cpp
- C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/node.h
- C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/periodical.h
- C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/tree.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patron.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patronhashtable.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/person.h
 CMakeFiles/Assignment4Implementation.dir/node.cpp.obj
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/date.h
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entity.h
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/node.cpp
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/node.h
+CMakeFiles/Assignment4Implementation.dir/patron.cpp.obj
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/action.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/childrensbook.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/database.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/date.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entity.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entityfactory.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/fictionbook.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/node.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patron.cpp
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patron.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patronhashtable.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/periodical.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/person.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/tree.h
+CMakeFiles/Assignment4Implementation.dir/patronhashtable.cpp.obj
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patron.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patronhashtable.cpp
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patronhashtable.h
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/person.h
 CMakeFiles/Assignment4Implementation.dir/periodical.cpp.obj
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/date.h
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entity.h
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/periodical.cpp
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/periodical.h
+CMakeFiles/Assignment4Implementation.dir/person.cpp.obj
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/person.cpp
+ C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/person.h
 CMakeFiles/Assignment4Implementation.dir/tree.cpp.obj
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/date.h
  C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/entity.h

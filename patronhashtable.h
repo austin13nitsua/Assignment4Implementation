@@ -9,6 +9,8 @@
 #include <iostream>
 #include "patron.h"
 
+using std::ifstream;
+
 //------------------------------------------------------------------------------
 /**
  * PatronHashTable: Class for the storage, addition, and retrieval of Patrons
@@ -26,6 +28,10 @@
  */
 //------------------------------------------------------------------------------
 
+const int PTABLE_SIZE = 97; // Max size of hash table, can be changed to
+                            // accommodate more patrons, prime number to avoid
+                            // collisions
+
 class PatronHashTable {
 
 public:
@@ -37,12 +43,15 @@ public:
     //Takes an ID# as a parameter and returns the associated Patron
     Patron* retrieve(int) const;
     //takes a pre-made Patron and adds it to the hash table
-    bool insert(const Patron*);
+    bool insert(Patron*);
+    // hash function for patron hash table, returns index
+    int hash(int);
 
 private:
 
     //array for hash table with key set to Patron ID#
-    Patron* pHashTable[];
+    Patron* pHashTable[PTABLE_SIZE];
+    int numPatrons;
 
 protected:
 

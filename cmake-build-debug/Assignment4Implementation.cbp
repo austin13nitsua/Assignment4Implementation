@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/action.cpp">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/action.h">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/checkout.cpp">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/checkout.h">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
 		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/childrensbook.cpp">
 			<Option target="Assignment4Implementation"/>
 		</Unit>
@@ -127,10 +139,22 @@
 		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patron.h">
 			<Option target="Assignment4Implementation"/>
 		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patronhashtable.cpp">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/patronhashtable.h">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
 		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/periodical.cpp">
 			<Option target="Assignment4Implementation"/>
 		</Unit>
 		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/periodical.h">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/person.cpp">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/person.h">
 			<Option target="Assignment4Implementation"/>
 		</Unit>
 		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/tree.cpp">
