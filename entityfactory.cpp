@@ -54,6 +54,15 @@ Entity* EntityFactory::createFromFile(ifstream& inputFile) {
     cout << "ch: " << ch << endl;
     // Char is a letter
     int index = hash(toupper(ch));
+    // Check if index is a valid integer
+    if(index < 0 || index > 26) {
+        return nullptr;
+    }
+    // Check if index refers to a valid Entity object
+    if(entityFactory[index] == nullptr) {
+        return nullptr;
+    }
+    // Return a newly created instance of the Entity
     return entityFactory[index]->create(inputFile);
     if(isalpha(ch)) {
         int index = hash(toupper(ch));

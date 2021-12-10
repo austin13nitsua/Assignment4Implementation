@@ -100,6 +100,12 @@
 		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/childrensbook.h">
 			<Option target="Assignment4Implementation"/>
 		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/database.cpp">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
+		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/database.h">
+			<Option target="Assignment4Implementation"/>
+		</Unit>
 		<Unit filename="C:/Users/austi/Documents/College/UWB/2021-22/FALL21/CSS 343/Assignment4Implementation/date.cpp">
 			<Option target="Assignment4Implementation"/>
 		</Unit>

@@ -21,12 +21,14 @@
 
 class CheckOut : public Action {
 public:
-  bool execute();
-  Action* create(ifstream&);
+    CheckOut();
+    bool execute();
+    Action* create(ifstream&);
+    void display();
+    string getType();
 private:
-  Patron* customer;
-  Entity* entity;
-  Database& data;
+    Patron* customer;
+    Entity* entity;
 };
 
 #endif // CHECKOUT_H

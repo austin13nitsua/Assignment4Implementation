@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Assignment4Implementation.dir/action.cpp.obj"
   "CMakeFiles/Assignment4Implementation.dir/checkout.cpp.obj"
   "CMakeFiles/Assignment4Implementation.dir/childrensbook.cpp.obj"
+  "CMakeFiles/Assignment4Implementation.dir/database.cpp.obj"
   "CMakeFiles/Assignment4Implementation.dir/date.cpp.obj"
   "CMakeFiles/Assignment4Implementation.dir/entity.cpp.obj"
   "CMakeFiles/Assignment4Implementation.dir/entityfactory.cpp.obj"

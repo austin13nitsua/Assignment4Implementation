@@ -32,6 +32,10 @@
  */
 //------------------------------------------------------------------------------
 
+const int T_TABLE_SIZE = 26; // Each char in the alphabet theoretically
+                            // corresponds to a tree pointer in the tree
+                            // hash table
+
 class EntityFactory;
 
 class Database {
@@ -50,10 +54,10 @@ public:
 private:
 
     PatronHashTable* pTable; //Creation of PatronHashTable Class
-    Tree* treeHashTable; //Creation of Tree Hash Table
+    Tree* treeHashTable[T_TABLE_SIZE]; //Creation of Tree Hash Table
     EntityFactory* entityFactory; //initialize entity factory
 
-    void createTreeHash(); //sets the built trees to the appropriate key
+    int treeHash(char) const;
     Tree* getTreeFromChar(char) const; //pulls a specific tree from a char key
 
 protected:
